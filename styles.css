@@ -19,43 +19,70 @@ html * {
   font-family: 'PT Sans',sans-serif;
 }
 
-h1 {
-  font-size: 34px;
-  text-align: center;
+body {
+  padding: 0 5%;
+  margin: 0 auto;
+  font-weight:300;
 }
 
 h2 {
   font-size: 18px;
   height: 30px;
+  font-weight: 700;
 }
 
-.page-container {
-  border: 10px solid green;
-  flex-wrap: wrap;
+ol {
+  border-color: #2bc435;
+  border-width: 1px 0 1px 0;
+}
+ol li + li:before {
+  background-color: #2bc435;
 }
 
-.header {
-  border: 10px solid red;
+a:hover {
+  color: #2bc435;
+  border-bottom: 1px dashed #2bc435;
 }
 
-.column-container {
-  border: 10px solid #00f;
-  width: 30%;
-  flex-wrap: wrap;
-  align-content: flex-start;
+#development-experience {
+  border-top-color: #2bc435;
+}
+#professional-experience {
+  border-top-color: #2bc435;
+}
+#education {
+  border-top-color: #2bc435;
+}
+#technical-skills {
+  border-top-color: #2bc435;
 }
 
-.content-container {
-  border: 10px solid #ff0;
-  width: 70%;
+#wrapper-1 {
+  width: 60%;
+  float: left;
+}
+#wrapper-2 {
+  width: 35%;
+  float: right;
 }
 
-.info-icons {
-  border: 10px solid red;
-  width: 10%;
+#kanoa-cleveland {
+  text-align: center;
+  font-size: 24px;
+  height: 18px;
+  line-height: 18px;
+  margin: 5px 0;
+  font-weight: 700;
 }
 
-.info-content {
-  border: 10px solid green;
-  width: 90%;
+#self-info {
+  width: 100%;
+  text-align: center;
+}
+
+#logo {
+  height: 100px;
+  margin: 25px auto;
+  display: block;
+  filter: invert(25%);
 }
