@@ -32,29 +32,30 @@ h2 {
 }
 
 ol {
-  border-color: #2bc435;
+  border-color: #00B45F;
   border-width: 1px 0 1px 0;
 }
 ol li + li:before {
-  background-color: #2bc435;
+  background-color: #00B45F;
 }
 
 a:hover {
-  color: #2bc435;
-  border-bottom: 1px dashed #2bc435;
+  color: #00B45F;
+  border-bottom: 1px dashed #00B45F;
 }
 
 #development-experience {
-  border-top-color: #2bc435;
+  border-top-color: #00B45F;
 }
 #professional-experience {
-  border-top-color: #2bc435;
+  border-top-color: #00B45F;
 }
 #education {
-  border-top-color: #2bc435;
+  border-top-color: #00B45F;
 }
 #technical-skills {
-  border-top-color: #2bc435;
+  border-top-color: #00B45F;
+  margin-bottom: 20px;
 }
 
 #wrapper-1 {
