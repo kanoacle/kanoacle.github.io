@@ -16,13 +16,13 @@ h1,h2 {
 }
 
 html * {
-  font-family: 'PT Sans',sans-serif;
+  font-family: 'PT Sans', sans-serif;
 }
 
 body {
   padding: 0 5%;
   margin: 0 auto;
-  font-weight:300;
+  font-weight: 300;
 }
 
 h2 {
@@ -61,10 +61,12 @@ a:hover {
 #wrapper-1 {
   width: 60%;
   float: left;
+  padding-bottom: 25px;
 }
 #wrapper-2 {
   width: 35%;
   float: right;
+  padding-bottom: 25px;
 }
 
 #kanoa-cleveland {
@@ -86,4 +88,29 @@ a:hover {
   margin: 25px auto;
   display: block;
   filter: invert(25%);
+}
+
+@media screen and (max-width: 480px) {
+  #wrapper-1 {
+    width: 100%;
+    float: none;
+    padding-bottom: 25px;
+  }
+  #wrapper-2 {
+    padding-top: 15px;
+    border-top: 1px solid #00B45F;
+    width: 100%;
+    float: none;
+    padding-bottom: 25px;
+  }
+  #logo {
+    height: 3.75%;
+    width: 75%;
+    margin: 50px auto;
+    display: block;
+    filter: invert(25%);
+  }
+  #lang {
+    column-count: 2;
+  }
 }
